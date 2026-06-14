@@ -90,7 +90,7 @@
         KIGOU {
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                      &kp LS(NUMBER_6)  &kp LS(N7)  &kp LS(N8)           &kp LS(N9)           &kp LS(N0)
-&trans            &trans            &trans            &trans            &trans      &trans      &trans  &trans            &kp F7      &kp RIGHT_BRACE      &kp NON_US_BSLH      &trans
+&trans            &trans            &trans            &trans            &trans      &trans      &trans  &trans            &trans      &kp RIGHT_BRACE      &kp NON_US_BSLH      &trans
 &trans            &trans            &trans            &trans            &trans      &trans      &trans  &trans            &trans      &kp LS(RIGHT_BRACE)  &kp LS(NON_US_BSLH)  &trans
 &trans            &trans            &trans            &trans            &trans      &trans      &trans  &trans                                                                  &trans
             >;
