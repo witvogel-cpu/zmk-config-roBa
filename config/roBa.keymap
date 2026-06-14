@@ -89,10 +89,10 @@
 
         KIGOU {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                      &kp LS(NUMBER_6)  &kp LS(N7)     &kp LS(N8)           &kp LS(N9)           &kp INTERNATIONAL_1
-&kp LEFT_BRACE    &trans            &trans            &trans            &trans      &trans      &trans  &trans            &kp APOS       &kp RIGHT_BRACKET    &kp NON_US_HASH      &trans
-&trans            &trans            &trans            &trans            &trans      &trans      &trans  &trans            &kp LS(EQUAL)  &kp LS(RIGHT_BRACE)  &kp LS(NON_US_HASH)  &kp LS(INTERNATIONAL_3)
-&trans            &trans            &trans            &trans            &trans      &trans      &trans  &trans                                                                     &kp LS(INTERNATIONAL_1)
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                      &kp LS(NUMBER_6)  &kp LS(N7)  &kp LS(N8)           &kp LS(N9)           &kp INTERNATIONAL_1
+&kp LEFT_BRACE    &trans            &trans            &trans            &trans      &trans      &trans  &trans            &kp APOS    &kp RIGHT_BRACKET    &kp NON_US_HASH      &kp LEFT_BRACE
+&trans            &trans            &trans            &trans            &trans      &trans      &trans  &trans            &kp SEMI    &kp LS(RIGHT_BRACE)  &kp LS(NON_US_HASH)  &kp LS(INTERNATIONAL_3)
+&trans            &trans            &trans            &trans            &trans      &trans      &trans  &trans                                                                  &kp LS(INTERNATIONAL_1)
             >;
         };
 
@@ -118,7 +118,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &trans    &mkp MB5  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
