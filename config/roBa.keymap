@@ -77,6 +77,7 @@
                 
             label = "MKP_EXIT_AML";
         };
+    };
 
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
